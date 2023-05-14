@@ -23,7 +23,7 @@ Because of the time-driven nature of market assets, three different time interva
 
 ### Model Results on Nasdaq and IBM Prices
 
-The notebook includes results from the models run on two assets, the NASDAQ composite (^IXIC) and IBM ('ibm'). For both assets the default intervals ('1d', '1wk', '1mo') and the default time period ('max') were used.
+The notebook includes results from the models run on two assets, the NASDAQ composite ('^IXIC') and IBM ('ibm'). For both assets the default intervals ('1d', '1wk', '1mo') and the default time period ('max') were used.
 For the classification model, the NASDAQ accuracy scores ranged from 0.35 to 0.47, which indicated the model worked below average. For IBM precision scores ranged from 0.50 to 0.52, which indicated the model below average.
 For the regression model, the NASDAQ r2 scores ranged from 0.98 to 0.99, which indicated the model worked well. For IBM r2 scores ranged from 0.91 to 0.95, which indicated the model worked well.
 
@@ -87,6 +87,6 @@ Runs run_mlr_model for a tuple of asset tickers.
 
 #### Raw Data Source
 
-Raw data is downloaded using the yfinance module, which gets its data from yahoo finance.
+Raw data is downloaded using the [yfinance module]('https://pypi.org/project/yfinance'), which gets its data from yahoo finance.
 
 
