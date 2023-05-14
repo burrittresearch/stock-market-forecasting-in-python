@@ -87,6 +87,6 @@ Runs run_mlr_model for a tuple of asset tickers.
 
 #### Raw Data Source
 
-Raw data is downloaded using the [yfinance module]('https://pypi.org/project/yfinance'), which gets its data from yahoo finance.
+Raw data is downloaded using the [yfinance module](https://pypi.org/project/yfinance), which gets its data from yahoo finance.
 
 
