@@ -69,14 +69,6 @@ run_class_model_list
 
 Runs run_class_model for a tuple of asset tickers.
 
-run_class_model
-
-Runs get_clean_dataframes to prepare data. Then splits data and runs random forest classification algorithm for intervals passed by tpl_model_intervals. By default, prints various evaluation reports (bool_get_reports) and dataframes (bool_get_dfs) for each modeled interval. Then summarizes results of all model runs and prints dataframe and visualization.
-
-run_class_model_list
-
-Runs run_class_model for a tuple of asset tickers.
-
 run_mlr_model
 
 Runs get_clean_dataframes to prepare data. Then splits data and runs multiple linear regression algorithm for intervals passed by tpl_model_intervals. By default, prints model coefficients, model intercepts, line plot (bool_get_reports) and dataframes (bool_get_dfs) for each modeled interval. Then summarizes results of all model runs and prints dataframe and visualization.
