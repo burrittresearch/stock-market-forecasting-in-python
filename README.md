@@ -1,10 +1,17 @@
 # stock-market-forecasting-in-python
 This notebook includes coding and notes for predicting prices of financial market assets including stocks, indices, and ETFs. Using a single class object and a variety of concise methods, users can get financial asset information, clean and explore data, model prices using classification and regression algorithms, and get a robust set of evaluation reports and visualizations.
 
+### Model Results for the Dow Jones Industrial Average and IBM
+
+The notebook includes results from the models run on two assets, the Dow Jones Industrial Average ('^DJI') and International Business Machines ('ibm'). For both assets the default intervals ('1d', '1wk', '1mo') and the default time period ('max') were used.
+For the classification model, the Dow Jones Industrial Average accuracy scores ranged from 0.41 to 0.47, which indicated the model worked below average. For IBM precision scores ranged from 0.50 to 0.51, which indicated the model below average.
+For the regression model, the Dow Jones Industrial Average r2 scores ranged from 0.95 to 0.99, which indicated the model worked well. For IBM r2 scores ranged from 0.90 to 0.99, which indicated the model worked well.
+
+
 ## Highlights
 
 ### Efficient Work
-Users can select an asset like the NASDAQ Composite (^IXIC), download data based on a variety of available time periods (durations) and time intervals. The raw dataframes can then be explored and visualized to help in the feature selection process. From there, data can be cleaned, split tested, modeled, and evaluated for precision. The processes are all available as independent methods so that work can be completed efficiently.
+Users can select an asset like the Dow Jones Industrial Average, download data based on a variety of available time periods (durations) and time intervals. The raw dataframes can then be explored and visualized to help in the feature selection process. From there, data can be cleaned, split tested, modeled, and evaluated for precision. The processes are all available as independent methods so that work can be completed efficiently.
  
 ### Modeling Using Classification and Regression Algorithms
 Random forest classification and multiple linear regression have their own methods and can be run independently. The training and test sets are manually split based on time to avoid leakage.
@@ -21,11 +28,6 @@ For both algorithms, predicted and actual results are output to a comparison dat
 
 Because of the time-driven nature of market assets, three different time intervals are used when running the models. The default time intervals are one day ('1d'), one week ('1wk'), and one month ('1mo'). The models are run and looped through these different intervals, which can be adjusted by the user. The default time period (duration) is the maximum available data ('max'), which can also be adjusted by the user.
 
-### Model Results on Nasdaq and IBM Prices
-
-The notebook includes results from the models run on two assets, the NASDAQ composite ('^IXIC') and IBM ('ibm'). For both assets the default intervals ('1d', '1wk', '1mo') and the default time period ('max') were used.
-For the classification model, the NASDAQ accuracy scores ranged from 0.35 to 0.47, which indicated the model worked below average. For IBM precision scores ranged from 0.50 to 0.52, which indicated the model below average.
-For the regression model, the NASDAQ r2 scores ranged from 0.98 to 0.99, which indicated the model worked well. For IBM r2 scores ranged from 0.91 to 0.95, which indicated the model worked well.
 
 ### Available Methods
 
