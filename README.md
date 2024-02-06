@@ -4,7 +4,7 @@ This notebook includes coding and notes for predicting prices of financial marke
 ### Model Results for the Dow Jones Industrial Average and IBM
 
 The notebook includes results from the models run on two assets, the Dow Jones Industrial Average ('^DJI') and International Business Machines ('ibm'). For both assets the default intervals ('1d', '1wk', '1mo') and the default time period ('max') were used.
-For the classification model, the Dow Jones Industrial Average accuracy scores ranged from 0.41 to 0.47, which indicated the model worked below average. For IBM precision scores ranged from 0.50 to 0.51, which indicated the model below average.
+For the classification model, the Dow Jones Industrial Average accuracy scores ranged from 0.41 to 0.47, which indicated the model worked below average. For IBM accuracy scores ranged from 0.50 to 0.51, which indicated the model below average.
 For the regression model, the Dow Jones Industrial Average r2 scores ranged from 0.95 to 0.99, which indicated the model worked well. For IBM r2 scores ranged from 0.90 to 0.99, which indicated the model worked well.
 
 
